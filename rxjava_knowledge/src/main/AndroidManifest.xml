@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.rxjava">
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -28,6 +29,11 @@
         <activity android:name=".FunctionOperator.RxJavafixRetrofit3" />
         <activity android:name=".SwitchOperator.SwitchUsage" />
         <activity android:name=".SwitchOperator.Demo.RxJavaRetrofit3" />
+        <activity android:name=".demo.CommonOperatorActivity1" />
+        <activity android:name=".demo.TransformOperatorAcitvity2" />
+        <activity android:name=".demo.MergeOperatorActivity3" />
+        <activity android:name=".demo.FunctionOperatorActivity4" />
+        <activity android:name=".demo.BackpressureActivity5" />
     </application>
 
 </manifest>

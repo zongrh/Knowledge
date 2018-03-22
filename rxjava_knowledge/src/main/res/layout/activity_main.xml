@@ -13,6 +13,37 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
+            android:onClick="OperatorActivity"
+            android:text="RxJava基本操作符" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:onClick="TransformOperatorAcitvity"
+            android:text="RxJava变换操作符" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:onClick="MergeOperatorActivity3"
+            android:text="RxJava组合/合并操作符" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:onClick="FunctionOperatorActivity4"
+            android:text="RxJava功能性操作符操作符" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:onClick="BackpressureActivity5"
+            android:text="RxJava背压相关策略" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
             android:onClick="EstablishUsage"
             android:text="EstablishUsage" />
 

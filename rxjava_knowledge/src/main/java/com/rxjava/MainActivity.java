@@ -2,7 +2,6 @@ package com.rxjava;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
@@ -16,6 +15,11 @@ import com.rxjava.FunctionOperator.RxJavafixRetrofit2;
 import com.rxjava.FunctionOperator.RxJavafixRetrofit3;
 import com.rxjava.SwitchOperator.Demo.RxJavaRetrofit3;
 import com.rxjava.SwitchOperator.SwitchUsage;
+import com.rxjava.demo.BackpressureActivity5;
+import com.rxjava.demo.CommonOperatorActivity1;
+import com.rxjava.demo.FunctionOperatorActivity4;
+import com.rxjava.demo.MergeOperatorActivity3;
+import com.rxjava.demo.TransformOperatorAcitvity2;
 
 public class MainActivity extends Activity {
 
@@ -79,5 +83,29 @@ public class MainActivity extends Activity {
 
     public void RxJavaRetrofit3(View view) {
         startActivity(new Intent(this, RxJavaRetrofit3.class));
+    }
+
+    public void OperatorActivity(View view) {
+        startActivity(new Intent(this,CommonOperatorActivity1.class));
+    }
+
+    public void TransformOperatorAcitvity(View view) {
+        startActivity(new Intent(this,TransformOperatorAcitvity2.class));
+
+    }
+
+    public void MergeOperatorActivity3(View view) {
+        startActivity(new Intent(this,MergeOperatorActivity3.class));
+
+    }
+
+    public void FunctionOperatorActivity4(View view) {
+        startActivity(new Intent(this,FunctionOperatorActivity4.class));
+
+    }
+
+    public void BackpressureActivity5(View view) {
+        startActivity(new Intent(this,BackpressureActivity5.class));
+
     }
 }
