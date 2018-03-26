@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Knowledge.iml" filepath="$PROJECT_DIR$/Knowledge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Knowledge.iml" filepath="$PROJECT_DIR$/.idea/Knowledge.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dagger2/dagger2.iml" filepath="$PROJECT_DIR$/dagger2/dagger2.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxjava_knowledge/rxjava_knowledge.iml" filepath="$PROJECT_DIR$/rxjava_knowledge/rxjava_knowledge.iml" />
-      <module fileurl="file://D:\AS30_WorkSpace\Knowledge\rxjava_learn\rxjava_learning.iml" filepath="D:\AS30_WorkSpace\Knowledge\rxjava_learn\rxjava_learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wanandroid/wanandroid.iml" filepath="$PROJECT_DIR$/wanandroid/wanandroid.iml" />
     </modules>
   </component>
 </project>

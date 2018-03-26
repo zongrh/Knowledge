@@ -9,7 +9,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/dagger2" />
             <option value="$PROJECT_DIR$/rxjava_knowledge" />
+            <option value="$PROJECT_DIR$/wanandroid" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
