@@ -22,7 +22,7 @@ import java.util.List;
 /**
  * Created by Zon on 2018/3/26 0026.
  * All Rights Resered by HangZhou @2018-2019
- * 文章列表适配器
+ * 文章列表适配器:https://github.com/CymChad/BaseRecyclerViewAdapterHelpe
  */
 public class ArticleListAdapter extends BaseQuickAdapter<ArticleBean, BaseViewHolder> {
     private Context mContext;

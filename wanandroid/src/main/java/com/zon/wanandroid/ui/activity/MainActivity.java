@@ -11,6 +11,7 @@ import com.zon.wanandroid.ui.adapter.FragPagerAdapter;
 import com.zon.wanandroid.ui.base.BaseActivity;
 import com.zon.wanandroid.ui.base.BasePresenter;
 import com.zon.wanandroid.ui.fragment.HomeFragment;
+import com.zon.wanandroid.ui.fragment.UserFragment;
 import com.zon.wanandroid.util.UIUtils;
 import com.zon.wanandroid.widget.IconFontTextView;
 
@@ -63,7 +64,7 @@ public class MainActivity extends BaseActivity {
         setTabColor(ifHome, tvHome);
         mFragments.add(HomeFragment.newInstance());
         mFragments.add(HomeFragment.newInstance());
-        mFragments.add(HomeFragment.newInstance());
+        mFragments.add(UserFragment.newInstance());
         viewPager.setAdapter(new FragPagerAdapter(getSupportFragmentManager(), mFragments));
         viewPager.setCurrentItem(0, false);
         viewPager.setOffscreenPageLimit(3);

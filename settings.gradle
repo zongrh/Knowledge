@@ -1,1 +1,1 @@
-include ':app', ':rxjava_knowledge', ':dagger2', ':wanandroid'
+include ':app', ':rxjava_knowledge', ':dagger2', ':wanandroid', ':myglide', ':okhttpdemo', ':eventbus', ':webviewjs'

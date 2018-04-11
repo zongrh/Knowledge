@@ -5,8 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Knowledge.iml" filepath="$PROJECT_DIR$/.idea/Knowledge.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/dagger2/dagger2.iml" filepath="$PROJECT_DIR$/dagger2/dagger2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eventbus/eventbus.iml" filepath="$PROJECT_DIR$/eventbus/eventbus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myglide/myglide.iml" filepath="$PROJECT_DIR$/myglide/myglide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttpdemo/okhttpdemo.iml" filepath="$PROJECT_DIR$/okhttpdemo/okhttpdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/rxjava_knowledge/rxjava_knowledge.iml" filepath="$PROJECT_DIR$/rxjava_knowledge/rxjava_knowledge.iml" />
       <module fileurl="file://$PROJECT_DIR$/wanandroid/wanandroid.iml" filepath="$PROJECT_DIR$/wanandroid/wanandroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webviewjs/webviewjs.iml" filepath="$PROJECT_DIR$/webviewjs/webviewjs.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#c7c7c7"
+        android:gravity="center"
+        android:onClick="test_main"
+        android:text="test_main"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#c7c7c7"
+        android:gravity="center"
+        android:onClick="webview_js_1"
+        android:text="WebView的loadUrl（）"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#c7c7c7"
+        android:gravity="center"
+        android:onClick="webview_js_2"
+        android:text="WebView的evaluateJavascript（）"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#c7c7c7"
+        android:gravity="center"
+        android:onClick="webview_js_3"
+        android:text="建议使用"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#c7c7c7"
+        android:gravity="center"
+        android:onClick="js_webview_android_1"
+        android:text="WebView的addJavascriptInterface（）进行对象映射"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#c7c7c7"
+        android:gravity="center"
+        android:onClick="Js_webview_android_2"
+        android:text="Js_webview_android_2"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#c7c7c7"
+        android:gravity="center"
+        android:onClick="Js_webview_android_3"
+        android:text="Js_webview_android_3"
+        android:textSize="18sp" />
+</LinearLayout>
